@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+
+body {
+    color: #90E0EF;
+}
+
+#main {
+    height: 90vh;
+    padding: 180px 0px;
+}
+
+
+#intro {
+    padding-left: 210px;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5em;
+    color: #376ff3;
+}
+
+#lastname{
+    color: white;
+}
+
+#caption {
+    width: 50%;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: #376ff3;
+}
+
+#intro_pic img {
+    width: 35%;
+    position: relative;
+    left: 60vw;
+    top: -150px;
+    z-index: -1;
+}

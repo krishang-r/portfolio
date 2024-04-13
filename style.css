@@ -39,3 +39,15 @@ body {
     top: -150px;
     z-index: -1;
 }
+
+#about {
+    position: relative;
+    top: 10vh;
+    padding-left: 210px;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #376ff3;
+    text-align: justify;
+}

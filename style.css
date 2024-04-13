@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
-
 body {
     color: #90E0EF;
+}
+
+section {
+    font-family: "Seymour One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #376ff3;
+    margin-left: 210px;
+    padding-right: 50px;
 }
 
 #main {
@@ -11,13 +18,11 @@ body {
 }
 
 
+
 #intro {
-    padding-left: 210px;
-    font-family: "Seymour One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 5em;
-    color: #376ff3;
+    font-size: 5.4vw;
+    /* padding-left: 210px; */
+    
 }
 
 #lastname{
@@ -28,26 +33,66 @@ body {
     width: 50%;
     font-weight: 100;
     font-style: normal;
-    font-size: 1.2rem;
+    font-size: 1.2vw;
     color: #376ff3;
 }
 
 #intro_pic img {
-    width: 35%;
+    width: 40%;
     position: relative;
-    left: 60vw;
-    top: -150px;
+    left: 47vw;
+    top: -20vh;
     z-index: -1;
 }
 
 #about {
     position: relative;
-    top: 10vh;
-    padding-left: 210px;
-    font-family: "Seymour One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    margin-top: 100px;
+    top: 5vh;
     font-size: 1.5em;
-    color: #376ff3;
     text-align: justify;
+    height: 50vh;
+}
+
+#skills {
+    position: relative;
+    margin-top: 50px;
+    height: 90vh;
+
+}
+
+#skills h1 {
+    margin-bottom: 100px;
+    font-size: 3vw;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    padding: 10px;
+  }
+
+
+  
+.grid-container div {
+    width: 15vw;
+    height: 20vh;
+    margin: auto;
+    text-align: center;
+    font-size: 2vw;
+}
+
+
+.grid-container div img {
+    height: 100%;
+}
+
+  .grid-item {
+    padding: 2px;
+    text-align: center;
+  }
+
+  .text {
+    padding-top: 7vh;
 }

@@ -31,7 +31,7 @@ body {
     height: calc(100% - 58px);
     left: 40px;
     top: 0;
-    background: gray;
+    background: #b6d1f7;
     z-index: -1;
     margin-top: 29px;
 }
@@ -45,7 +45,7 @@ body {
 .navmenu ul li a {
     text-decoration: none;
     position: relative;
-    color: black;
+    color: #2764f3d2;
     font-size: 1.5rem;
     line-height: 1rem;
     font-weight: 500;
@@ -61,7 +61,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     border-radius: 50px;
-    border: 4px solid GRAY;
+    border: 4px solid #b6d1f7;
     transition: background 500ms;
 }
 
@@ -70,5 +70,5 @@ body {
 }
 
 .navmenu ul li a.active::before {
-    background: black;
+    background: #2764f3;
 }

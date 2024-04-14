@@ -166,3 +166,28 @@ section h2 {
     height: 32vh;
     margin-left: 35px;
 }
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+
+}
+
+footer img {
+    width: 3vw;;
+}
+
+footer li{
+    margin: 2px 1vw;
+}
+
+footer {
+    background-color: #2F5061;
+    height: 8vh;
+    padding-top: 10px;
+    color: #ffffff;
+    margin-top: 100px;
+}

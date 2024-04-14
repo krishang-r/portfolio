@@ -97,7 +97,7 @@ section h1 {
     padding-top: 7vh;
 }
 
-#projects {
+#projects, #work-ex {
     margin-top: 200px;
 }
 
@@ -127,4 +127,20 @@ section h2 {
 }
 .two {
     margin: 10px 0px 50px;
+}
+
+.center {
+    width: 100%;
+}
+
+.center img{
+    display: block;
+    width: 15vw;
+    margin: auto;
+}
+
+#work-ex {
+    font-size: 1.3vw;
+    line-height: 5vh;
+    margin-bottom: 200px;
 }

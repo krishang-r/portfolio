@@ -8,6 +8,10 @@ body {
     color: #90E0EF;
 }
 
+header {
+    height: 100px;
+}
+
 section {
     
     font-family: "Mochiy Pop One", sans-serif;
@@ -20,7 +24,7 @@ section {
 
 #main {
     height: 90vh;
-    padding: 180px 0px;
+    padding: 100px 0px 80px;
     font-family: "Seymour One", sans-serif;
 }
 
@@ -178,6 +182,11 @@ footer ul{
 
 footer img {
     width: 3vw;;
+}
+
+footer img:hover {
+    width: 3.5vw;
+    margin: -5px;
 }
 
 footer li{
